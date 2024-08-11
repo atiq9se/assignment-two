@@ -1,0 +1,492 @@
+/* ALL COMMON CSS START */
+*{
+    margin:0;
+    padding:0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a,p,h1,h2,h3,h4,h5,h6{
+    margin:0px;
+    padding:0px;
+    outline: 0px;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "Azeret Mono", sans-serif;
+    background-color: #000;
+}
+.text-center{
+    text-align: center;
+}
+.button-one{
+    display: inline-block;
+    padding:15px 35px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    color:#fff;
+    background:red;
+    border-radius: 40px;
+    border:2px solid red;
+    width: 220px;
+    text-align: center;
+}
+.button-two{
+    display: inline-block;
+    padding:15px 35px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    color:#fff;
+    background:transparent;
+    border-radius: 40px;
+    border:2px solid #fff;
+    margin-left: 20px;
+    width: 220px;
+    text-align: center;
+}
+/* ALL COMMON CSS END */
+
+/* NAVBAR CSS START */
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px 0px;
+}
+.logo a{
+    font-size: 40px;
+    font-weight: bold;
+    color:red;
+}
+.nav-link{
+    border:1px solid #fff;
+    border-radius: 30px;
+}
+.nav-link a{
+    display: inline-block;
+    padding:15px 30px 15px 30px;
+    font-size: 20px;
+    color:#fff;
+}
+.nav-link a.active{
+    background-color: red;
+    border-radius: 30px;
+}
+.nav-link a:hover{
+    background-color: red;
+    border-radius: 30px;
+}
+.nav-icon{
+    display: none;
+}
+
+.common-section-padding{
+    padding:0px 130px;
+}
+/* NAVBAR CSS END */
+
+/* BANNER CSS START */
+.banner-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    gap:160px;
+}
+.banner-left h2{
+    font-size: 78px;
+    line-height: 92px;
+    color:#fff;
+}
+.banner-left p{
+    font-size: 16px;
+    line-height: 24px;
+    color:#fff;
+    padding:20px 0px;
+}
+
+.banner-img{
+    position: relative;
+}
+.text-box-one{
+    position:absolute;
+    content: '';
+    top:25%;
+    right:0%;
+    background:rgba(238, 236, 236, .1);
+    padding:10px;
+    border-radius: 5px;
+}
+.text-box-one p{
+    font-size: 40px;
+    line-height: 40px;
+    color:#fff;
+}
+.text-box-one h6{
+    font-size: 13px;
+    line-height: 20px;
+    color:#fff;
+}
+.text-box-two{
+    position:absolute;
+    content: '';
+    bottom:10%;
+    left:-15%;
+    background:rgba(238, 236, 236, .1);
+    padding:10px;
+    border-radius: 5px;
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.roundShape{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+}
+.roundShape::after{
+    position: absolute;
+    content:'';
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-left: 10px solid white;
+    border-bottom: 7px solid transparent;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.text-box-two p{
+    font-size: 24px;
+    line-height: 24px;
+    color:#fff;
+}
+.text-box-two h6{
+    font-size: 16px;
+    line-height: 24px;
+    color:#fff;
+}
+.banner-img img{
+    width:100%;
+}
+/* BANNER CSS END */
+
+/* ONE CSS END */
+.habits-section{
+    background-color: #000;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.habits-header{
+    padding-bottom: 40px;
+}
+.habits-header h3{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    color:#fff;
+}
+.habits-header p{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color:#fff;
+    padding:5px 350px;
+}
+.habits-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:25px;
+}
+.habits-item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.habits-item img{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.habits-item h4{
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 600;
+    color:#fff;
+    text-align: center;
+    padding-bottom: 6px;
+}
+.habits-item p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color:#fff;
+    text-align: center;
+}
+/* ONE CSS END */
+
+/* RUN CSS START */
+.run-section{
+    
+}
+.run-container{
+    display: grid;
+    grid-template-columns: 1.8fr 1.2fr;
+    gap:120px;
+    background-color: #181313;
+    border-radius: 10px;
+    padding:20px;
+}
+.run-text h3{
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 600;
+    color:#fff;
+    padding:15px 0px 10px 0px;
+}
+.run-text p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color:#fff;
+    padding-bottom: 20px;
+}
+.run-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+/* RUN CSS END */
+
+/* TRAINING CSS START */
+.training-section{
+    
+}
+.training-header h3{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    color:#fff;
+}
+.training-header p{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+    color:#9c9b9b;
+    padding:5px 0px;
+}
+.training-container-first{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.training-first-item img{
+    width:100%;
+    height: 200px;
+}
+.training-container-second{
+    display: grid;
+    grid-template-columns: 1.7fr 1fr 1.3fr;
+}
+.training-second-item img{
+    width:100%;
+    height: 200px;
+}
+.training-one-overlay{
+    position: relative;
+}
+.training-one-overlay p{
+    position: absolute;
+    left:8%;
+    bottom:10%;
+    color:#fff;
+}
+.training-two-overlay{
+    position: relative;
+}
+.training-two-overlay p{
+    position: absolute;
+    left:8%;
+    top:10%;
+    color:#fff;
+}
+.training-three-overlay{
+    position: relative;
+}
+.training-three-overlay p{
+    position: absolute;
+    right:8%;
+    top:10%;
+    color:#fff;
+}
+/* TRAINING CSS END */
+
+/* CALCULATOR CSS START */
+.bmi-header{
+    padding:80px 0px 40px 150px;
+}
+
+.calculator-section{
+    background-color: #181313;
+}
+.calculator-container{
+    padding:40px 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap:150px;
+}
+.calculator-table h3{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    color:#fff;
+    padding-bottom: 30px;
+}
+.calculator-table table{
+    border-collapse: collapse;
+}
+
+.calculator-table table tr th, .calculator-table table tr td{
+    border:1px solid #fff;
+    font-size: 20px;
+    padding:10px 10px;
+    text-align: left;
+}
+.calculator-table table tr th{
+    color:#fff;
+}
+.calculator-table table tr td{
+    color:#8a8989;
+}
+
+.calculator-bmi h3{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    color:#fff;
+    padding-bottom: 10px;
+}
+.calculator-bmi p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color:#fff;
+    padding-bottom: 25px;
+}
+.calulator-button{
+    margin-top: 30px;
+}
+.input-group{
+    display: flex;
+    gap:10px;
+    margin-bottom: 10px;
+}
+.input-group input{
+    width: 100%;
+    background-color: #8a8989;
+    border:none;
+    border-radius: 5px;
+    padding:12px 10px;
+    color:#c5c0c0;
+}
+.input-group select{
+    width: 100%;
+    background-color: #8a8989;
+    border:none;
+    border-radius: 5px;
+    padding:12px 10px;
+    color:#c5c0c0;
+}
+/* CALCULATOR CSS END */
+
+/* TEAM ITEM START */
+.team-section{
+    padding:10px 100px;
+}
+.team-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:15px;
+    background-color: #c93e3e;
+    padding: 15px;
+    border-radius: 10px;
+}
+.team-item{
+    position:relative;
+}
+.team-item img{
+    width: 100%;
+    border-radius: 5px;
+}
+.team-item-overlay{
+    position: absolute;
+    left:5%;
+    bottom:8%;
+}
+.team-item-overlay h4{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    color:#fff;
+}
+.team-item-overlay p{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color:#a5a4a4;
+}
+/* TEAM ITEM END */
+
+/* FOOTER PART START */
+.footer-section{
+    background-color: #181313;
+    padding:0px 100px;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap:60px;
+    padding:30px 0px;
+}
+.footer-logo p{
+    font-size: 16px;
+    color:#cac7c7;
+}
+.footer-link h3{
+    display: block;
+    font-size: 24px;
+    color:#fff;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+.footer-link a{
+    display: block;
+    font-size: 18px;
+    color:#fff;
+    line-height: 40px;
+}
+.footer-bottom p{
+    font-size: 16px;
+    color:#cac7c7;
+    text-align: center;
+    padding:18px 0px;
+    border-top:1px solid #8a8989;
+}
+/* FOOTER PART END */
+
+/* Mobile responsive */
+@media screen and(min-width:576px) and(max-width:992px){
+
+}
+@media screen and (max-width:576px){
+    .nav-link {
+        display: none;
+    }
+    .nav-icon{
+        display: block;
+    }
+}
