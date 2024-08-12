@@ -64,6 +64,7 @@ body{
 .logo a{
     font-size: 40px;
     font-weight: bold;
+    font-style: italic;
     color:#E6533C;
 }
 .nav-link{
@@ -95,10 +96,6 @@ body{
     padding:0px 130px;
 }
 /* NAVBAR CSS END */
-/* Frame 7 */
-
-
-
 
 /* BANNER CSS START */
 
@@ -166,7 +163,7 @@ body{
 .roundShape{
     width: 30px;
     height: 30px;
-    background-color: red;
+    background-color: #E6533C;
     border-radius: 50%;
     position: relative;
 }
@@ -291,7 +288,10 @@ body{
 
 /* TRAINING CSS START */
 .training-section{
-    
+    padding-top:100px;
+}
+.training-header{
+    padding-bottom: 40px;
 }
 .training-header h3{
     font-size: 48px;
@@ -418,7 +418,7 @@ body{
 }
 .input-group input{
     width: 100%;
-    background-color: #8a8989;
+    background-color: #2b2626;
     border:none;
     border-radius: 5px;
     padding:12px 10px;
@@ -426,23 +426,25 @@ body{
 }
 .input-group select{
     width: 100%;
-    background-color: #8a8989;
+    background-color: #2b2626;
     border:none;
     border-radius: 5px;
     padding:12px 10px;
     color:#c5c0c0;
+    border-right: 12px solid transparent;
 }
 /* CALCULATOR CSS END */
 
 /* TEAM ITEM START */
 .team-section{
-    padding:10px 100px;
+    padding-top:80px;
+    padding-bottom: 80px;
 }
 .team-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap:15px;
-    background-color: #c93e3e;
+    gap:20px;
+    background-color: #181313;
     padding: 15px;
     border-radius: 10px;
 }
@@ -451,7 +453,7 @@ body{
 }
 .team-item img{
     width: 100%;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 .team-item-overlay{
     position: absolute;
@@ -461,14 +463,14 @@ body{
 .team-item-overlay h4{
     font-size: 20px;
     line-height: 26px;
-    font-weight: 400;
+    font-weight: 800;
     color:#fff;
 }
 .team-item-overlay p{
-    font-size: 16px;
+    font-size: 14px;
     line-height: 22px;
     font-weight: 400;
-    color:#a5a4a4;
+    color:#909090;
 }
 /* TEAM ITEM END */
 
@@ -480,32 +482,42 @@ body{
 .footer-container{
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
-    gap:60px;
-    padding:30px 0px;
+    gap:140px;
+    padding:60px 0px;
+}
+.footer-logo h1{
+    font-size: 70px;
+    font-weight: 900;
+    font-style: italic;
+    color:#E6533C;
 }
 .footer-logo p{
-    font-size: 16px;
-    color:#cac7c7;
+    font-size: 14px;
+    line-height: 24px;
+    color:#909090;
 }
 .footer-link h3{
     display: block;
-    font-size: 24px;
+    font-size: 32px;
+    font-weight: 800;
     color:#fff;
     line-height: 40px;
     padding-bottom: 20px;
 }
 .footer-link a{
     display: block;
-    font-size: 18px;
-    color:#fff;
+    font-size: 23px;
+    font-weight: 400;
+    color:#909090;
     line-height: 40px;
 }
 .footer-bottom p{
-    font-size: 16px;
-    color:#cac7c7;
+    font-size: 20px;
+    font-weight: 400;
+    color:#909090;
     text-align: center;
-    padding:18px 0px;
-    border-top:1px solid #8a8989;
+    padding:28px 0px;
+    border-top:1px solid #909090;
 }
 /* FOOTER PART END */
 
