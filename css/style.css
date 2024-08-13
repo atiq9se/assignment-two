@@ -479,6 +479,55 @@ body{
 }
 /* TEAM ITEM END */
 
+/* PRICE PART START */
+.price-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:30px;
+}
+.price-item{
+   background-color: #181313;
+   border-radius: 15px;
+   padding:50px 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.price-item h2{
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 80px;
+    color:#fff;
+    text-align: center;
+}
+.price-item h3{
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 40px;
+    color:#E6533C;
+    text-align: center;
+}
+.price-item h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color:#909090;
+    text-align: center;
+}
+.price-text{
+    padding-left: 30px;
+    padding-top:40px;
+    margin-bottom: 40px;
+}
+.price-text ul li{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    color:#fff;
+}
+/* PRICE PART END */
+
 /* FOOTER PART START */
 .footer-section{
     background-color: #181313;
@@ -537,6 +586,12 @@ body{
     .nav-icon a img{
         width: 42px;
     }
+    .nav-link {
+        display: none;
+    }
+    .nav-icon{
+        display: block;
+    }
     .banner-container {
         grid-template-columns: 1fr;
         gap:40px;
@@ -593,14 +648,22 @@ body{
     }
     .run-img{
         display: none;
-     }
-     .run-img-mobile{
+    }
+    .run-img-mobile{
         display: block;
-     }
-     .run-img-mobile img{
+    }
+    .run-img-mobile img{
         width: 100%;
         border-radius: 12px;
-     }
+    }
+    .training-container-first {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .training-container-second {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
     .training-header {
         padding-top: 50px;
     }
@@ -629,6 +692,34 @@ body{
         padding: 15px;
         border-radius: 10px;
     }
+    .price-container{
+        grid-template-columns: 1fr;
+    }
+    .price-item{
+       border-radius: 10px;
+       padding:30px 15px;
+    }
+    .price-item h2{
+        font-size: 26px;
+        line-height:45px;
+    }
+    .price-item h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .price-item h4{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .price-text{
+        padding-left: 10px;
+        padding-top:15px;
+        margin-bottom: 30px;
+    }
+    .price-text ul li{
+        font-size: 15px;
+        line-height: 30px;
+    }
     .footer-section {
         padding: 0px 30px;
     }
@@ -638,10 +729,11 @@ body{
         gap: 40px;
         padding: 60px 0px;
     }
-    .nav-link {
-        display: none;
+    .footer-link a {
+        font-size: 18px;
+        line-height: 38px;
     }
-    .nav-icon{
-        display: block;
+    .footer-bottom p {
+        font-size: 17px;
     }
 }
