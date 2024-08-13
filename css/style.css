@@ -55,6 +55,7 @@ body{
     background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
 .navbar-container{
     display: flex;
     justify-content: space-between;
@@ -131,7 +132,7 @@ body{
     position:absolute;
     content: '';
     top:25%;
-    right:0%;
+    right:-12%;
     background:rgba(238, 236, 236, .1);
     padding:10px;
     border-radius: 5px;
@@ -152,7 +153,7 @@ body{
     position:absolute;
     content: '';
     bottom:10%;
-    left:-15%;
+    left:-25%;
     background:rgba(238, 236, 236, .1);
     padding:10px;
     border-radius: 5px;
@@ -198,7 +199,7 @@ body{
 
 /* HABITS CSS END */
 .habits-section{
-    background-color: #000;
+    background-color: #000000;
     padding-top:80px;
     padding-bottom:80px;
 }
@@ -356,13 +357,14 @@ body{
 }
 /* TRAINING CSS END */
 
+
 /* CALCULATOR CSS START */
 .bmi-header{
     padding:80px 0px 40px 150px;
 }
 
 .calculator-section{
-    background-color: #181313;
+    background-color: #222;
 }
 .calculator-container{
     padding:40px 100px;
@@ -423,7 +425,7 @@ body{
 }
 .input-group input{
     width: 100%;
-    background-color: #2b2626;
+    background-color:rgba(255, 255, 255, 0.1);;
     border:none;
     border-radius: 5px;
     padding:12px 10px;
@@ -431,7 +433,7 @@ body{
 }
 .input-group select{
     width: 100%;
-    background-color: #2b2626;
+    background-color: rgba(255, 255, 255, 0.1);;
     border:none;
     border-radius: 5px;
     padding:12px 10px;
@@ -449,7 +451,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap:20px;
-    background-color: #181313;
+    background-color: #222;
     padding: 15px;
     border-radius: 10px;
 }
@@ -480,13 +482,17 @@ body{
 /* TEAM ITEM END */
 
 /* PRICE PART START */
+.price-section{
+    margin-bottom: 80px;
+}
 .price-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap:30px;
 }
+
 .price-item{
-   background-color: #181313;
+   background-color: #222;
    border-radius: 15px;
    padding:50px 30px;
    display: flex;
@@ -495,7 +501,7 @@ body{
    flex-direction: column;
 }
 .price-item h2{
-    font-size: 42px;
+    font-size: 36px;
     font-weight: 800;
     line-height: 80px;
     color:#fff;
@@ -516,21 +522,21 @@ body{
     text-align: center;
 }
 .price-text{
-    padding-left: 30px;
+    padding-left: 15px;
     padding-top:40px;
     margin-bottom: 40px;
 }
-.price-text ul li{
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 36px;
-    color:#fff;
+.price-text ul li {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 34px;
+	color: #fff;
 }
 /* PRICE PART END */
 
 /* FOOTER PART START */
 .footer-section{
-    background-color: #181313;
+    background-color: #222;
     padding:0px 100px;
 }
 .footer-container{
@@ -584,7 +590,7 @@ body{
         padding:0px 30px;
     }
     .nav-icon a img{
-        width: 42px;
+        width: 32px;
     }
     .nav-link {
         display: none;
@@ -609,6 +615,14 @@ body{
     }
     .banner-left p {
         padding: 30px 30px 30px 0px;
+    }
+    .text-box-one {
+        top: 10%;
+        right: -6%;
+    }
+    .text-box-two {
+        bottom: 40%;
+        left: 0%;
     }
     .button-one {
         padding: 10px 15px;
@@ -641,6 +655,7 @@ body{
         grid-template-columns: 1fr;
         gap: 35px;
         padding: 25px;
+        margin-top:50px;
     }
     .run-text h3 {
         font-size:32px;
@@ -692,6 +707,7 @@ body{
         padding: 15px;
         border-radius: 10px;
     }
+
     .price-container{
         grid-template-columns: 1fr;
     }
