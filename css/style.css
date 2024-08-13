@@ -196,7 +196,7 @@ body{
 }
 /* BANNER CSS END */
 
-/* ONE CSS END */
+/* HABITS CSS END */
 .habits-section{
     background-color: #000;
     padding-top:80px;
@@ -251,7 +251,7 @@ body{
     color:#909090;
     text-align: center;
 }
-/* ONE CSS END */
+/* HABITS CSS END */
 
 /* RUN CSS START */
 .run-section{
@@ -279,10 +279,15 @@ body{
     color:#909090;
     padding:10px 0px 30px 0px;
 }
-.run-img img{
-    width: 100%;
-    border-radius: 10px;
-    height: 320px;
+.run-img{
+   background-image: url(../images/run.jpg);
+   background-position: 69% 32%;
+   height: 350px;
+   border-radius: 15px;
+   overflow: hidden;
+}
+.run-img-mobile{
+    display: none;
 }
 /* RUN CSS END */
 
@@ -526,6 +531,113 @@ body{
 
 }
 @media screen and (max-width:576px){
+    .common-section-padding{
+        padding:0px 30px;
+    }
+    .nav-icon a img{
+        width: 42px;
+    }
+    .banner-container {
+        grid-template-columns: 1fr;
+        gap:40px;
+    }
+    .banner-left h2 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .banner-left h2 span {
+        font-family: 'Miama', sans-serif;
+        font-size: 69px;
+        line-height: 26px;
+        font-weight: 400;
+        color: #fff;
+    }
+    .banner-left p {
+        padding: 30px 30px 30px 0px;
+    }
+    .button-one {
+        padding: 10px 15px;
+        font-size: 16px;
+        line-height: 22px;
+        width: 150px;
+    }
+    .button-two {
+        display: inline-block;
+        padding: 10px 15px;
+        font-size: 16px;
+        line-height: 22px;
+        width: 150px;
+        margin-left: 10px;
+    }
+    .habits-header h3 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .habits-header p {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 15px 15px;
+    }
+    .habits-container {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+    .run-container {
+        grid-template-columns: 1fr;
+        gap: 35px;
+        padding: 25px;
+    }
+    .run-text h3 {
+        font-size:32px;
+        line-height: 40px;
+    }
+    .run-img{
+        display: none;
+     }
+     .run-img-mobile{
+        display: block;
+     }
+     .run-img-mobile img{
+        width: 100%;
+        border-radius: 12px;
+     }
+    .training-header {
+        padding-top: 50px;
+    }
+    .training-header h3 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .calculator-section{
+        margin-top:30px;
+    }
+    .calculator-container {
+        padding: 40px 30px;
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .habits-header {
+        padding-top:50px;
+        padding-bottom: 40px;
+    }
+    .team-section{
+        padding-bottom: 50px;
+    }
+    .team-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .footer-section {
+        padding: 0px 30px;
+    }
+    .footer-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 60px 0px;
+    }
     .nav-link {
         display: none;
     }
